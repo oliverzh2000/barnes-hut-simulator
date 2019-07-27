@@ -1,5 +1,5 @@
 # barnes-hut-simulator
-A 2-dimensional N body simulation in `n*log(n)` time using the Barnes-Hut binary space partitioning algorithm.
+A 2-dimensional N body simulation in `n*log(n)` time using the Barnes-Hut binary space partitioning algorithm, written in Java.
 
 The essence of the Barnes-Hut
 algorithm is that for each star, you can treat groups of other stars (with sufficiently small angular separation) as a single star at their
