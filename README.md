@@ -9,7 +9,7 @@ acceptable amount of simulation accuracy.
 Numerical integration is done using the leapfrog method. The leapfrog method ensures that the simulation is time-reversible
 (to within machine precision), which implies conservation of energy via Noether's theorem.
 
-The method `Simulation createGaussianGalaxy(int N, double cx, double cy, double vx, double vy, double stdDev)` creates a galaxy with a given
+The method `Simulation::createGaussianGalaxy(int N, double cx, double cy, double vx, double vy, double stdDev)` creates a galaxy with a given
 center, velocity of the galaxy's center of mass, and N random stars normally distributed radially with standard deviation. There is a 
 supermassive black hole in the center of the galaxy (for stability) with mass equal to the total mass of all stars. The speeds of each 
 star is initialized such that at `time=0`, gravitational forces and centrifugal forces due to orbit keep the star in equalibrium. 
